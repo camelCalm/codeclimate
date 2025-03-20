@@ -18,7 +18,9 @@
             files: target/lcov.info
 ```
 
-![add Test & publish code coverage](https://github.com/camelCalm/code-coverage/blob/main/img/getStartAct.png)
+Выглядит это так:
+
+![add Test & publish code coverage](https://github.com/camelCalm/code-coverage/blob/main/img/addActions2.png)
 
 2. После создания проекта необходимо установить и инициализировать следующие пакеты:
 - eslint
@@ -31,7 +33,7 @@
 https://qlty.sh
 ```
 
-Подробная инструкция от разработчиков qlty:
+Подробная инструкция по регистрации от разработчиков qlty:
 
 ```
 https://docs.qlty.sh/cloud/quickstart
@@ -45,7 +47,7 @@ https://docs.qlty.sh/cloud/quickstart
 
 ![open project](https://github.com/camelCalm/code-coverage/blob/main/img/openProjects.png)
 
--> Project Settings -> в строке Code Coverage скопировать Coverage Token.
+Потом -> Project Settings -> в строке Code Coverage скопировать Coverage Token.
 
 ![set project](https://github.com/camelCalm/code-coverage/blob/main/img/setProj.png)
 
@@ -57,6 +59,4 @@ https://github.com/camelCalm/<название проекта>/settings/secrets/
 
 ![add secret key](https://github.com/camelCalm/code-coverage/blob/main/img/addSecret.png)
 
-под именем: ```CC_TEST_REPORTER_ID```
-
-![add secret key2](https://github.com/camelCalm/code-coverage/blob/main/img/addSecret2.png)
+Под именем: ```QLTY_COVERAGE_TOKEN```
