@@ -36,9 +36,6 @@ jobs:
     # https://github.com/paambaati/codeclimate-action
     - uses: qltysh/qlty-action/coverage@main
       # Add Code Climate secret key
-      env:
-        QLTY_COVERAGE_TOKEN: ${{ secrets.QLTY_COVERAGE_TOKEN }}
       with:
+        coverage-token: ${{ secrets.QLTY_COVERAGE_TOKEN }}
         files: coverage/lcov.info
-        coverageCommand: make test-coverage
-        debug: true
