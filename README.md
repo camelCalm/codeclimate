@@ -4,9 +4,11 @@
 
 [![Code Coverage](https://qlty.sh/badges/cb36b1d4-14dd-4c31-9f17-93dec816da2f/test_coverage.svg)](https://qlty.sh/gh/camelCalm/projects/codeclimate)
 
-1. Создаем проект в github
+1. Создаем проект в github, во вкладке actions создаем Simple workflow
 
-В конец файла /.github/workflows/<название файла>.yml добавляем:
+![get start actions](https://github.com/camelCalm/code-coverage/blob/main/img/getStartAct.png)
+
+В конец созданного файла /.github/workflows/<название файла>.yml добавляем:
 
 ```
       - name: Test & publish code coverage
@@ -15,6 +17,8 @@
             coverage-token: ${{secrets.QLTY_COVERAGE_TOKEN}}
             files: target/lcov.info
 ```
+
+![add Test & publish code coverage](https://github.com/camelCalm/code-coverage/blob/main/img/getStartAct.png)
 
 2. После создания проекта необходимо установить и инициализировать следующие пакеты:
 - eslint
