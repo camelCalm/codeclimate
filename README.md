@@ -10,22 +10,34 @@
 ```globals```
 ```jest```
 
-2. Пройти регистрацию на сайте 
+2. Пройти регистрацию на сайте:
 
 ```https://qlty.sh```
 
-подробная инструкция:
+Подробная инструкция от разработчиков qlty:
 
 ```https://docs.qlty.sh/cloud/quickstart```
 
-3. Далее необходимо добавить созданную директорию в Repositories, войти в Projects -> Project Settings -> в строке Code Coverage скопировать Coverage Token.
+3. Далее необходимо добавить созданную директорию в Repositories
 
 ![add project](https://github.com/camelCalm/code-coverage/blob/main/img/addProject.png)
 
+4. Войти в Projects 
+
+![open project](https://github.com/camelCalm/code-coverage/blob/main/img/openProjects.png)
+
+-> Project Settings -> в строке Code Coverage скопировать Coverage Token.
+
+![set project](https://github.com/camelCalm/code-coverage/blob/main/img/setProj.png)
+
 4. Coverage Token необходимо сохранить в 
 
-``
+```
 https://github.com/camelCalm/<название проекта>/settings/secrets/actions 
-``
+```
+
+![add secret key](https://github.com/camelCalm/code-coverage/blob/main/img/addSecret.png)
+
+![add secret key2](https://github.com/camelCalm/code-coverage/blob/main/img/addSecret2.png)
 
 под именем: ```CC_TEST_REPORTER_ID```
