@@ -1,0 +1,26 @@
+{
+  "name": "codeclimate",
+  "version": "1.0.0",
+  "description": "[![Maintainability](https://qlty.sh/badges/cb36b1d4-14dd-4c31-9f17-93dec816da2f/maintainability.svg)](https://qlty.sh/gh/camelCalm/projects/codeclimate)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camelCalm/codeclimate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camelCalm/codeclimate/issues"
+  },
+  "homepage": "https://github.com/camelCalm/codeclimate#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.22.0",
+    "eslint": "^9.22.0",
+    "globals": "^16.0.0",
+    "jest": "^29.7.0"
+  }
+}
