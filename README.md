@@ -4,18 +4,19 @@
 
 1. При создании проекта необходимо установить следующие пакеты:
 
-``
-    "@eslint/js"
-    "eslint"
-    "eslint-plugin-jest"
-    "globals"
-    "jest"
-``
-2. Пройти регистрацию на сайте https://qlty.sh, добавить созданную директорию в Repositories,
-войти в Repo Settings, в строке Test coverage скопировать Test reporter ID.
-3. Test reporter ID необходимо сохранить в 
+```"@eslint/js"```
+```eslint```
+```eslint-plugin-jest```
+```globals```
+```jest```
+
+2. Пройти регистрацию на сайте https://qlty.sh, добавить созданную директорию в Repositories, войти в Projects -> Project Settings -> в строке Code Coverage скопировать Coverage Token.
+
+![add project](https://github.com/camelCalm/code-coverage/img/addProject.png?raw=true)
+
+3. Coverage Token необходимо сохранить в 
 ``
 https://github.com/camelCalm/<название проекта>/settings/secrets/actions 
 ``
-под именем: CC_TEST_REPORTER_ID
-4. 
+
+под именем: CC_TEST_REPORTER_ID 

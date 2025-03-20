@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/camelCalm/codeclimate.git"
+    "url": "git+https://github.com/camelCalm/code-coverage.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/camelCalm/codeclimate/issues"
+    "url": "https://github.com/camelCalm/code-coverage/issues"
   },
-  "homepage": "https://github.com/camelCalm/codeclimate#readme",
+  "homepage": "https://github.com/camelCalm/code-coverage#readme",
   "devDependencies": {
     "@eslint/js": "^9.22.0",
     "eslint": "^9.22.0",
