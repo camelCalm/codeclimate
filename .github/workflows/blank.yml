@@ -31,11 +31,10 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
+    # Publish code coverage on qlty
     - name: Test & publish code coverage
-    # Publish code coverage on Code Climate
-    # https://github.com/paambaati/codeclimate-action
       uses: qltysh/qlty-action/coverage@main
-      # Add Code Climate secret key
       with:
+        # Add Code Climate secret key
         coverage-token: ${{ secrets.QLTY_COVERAGE_TOKEN }}
         files: coverage/lcov.info
