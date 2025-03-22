@@ -1,5 +1,7 @@
 ## Гайд по подключению Code Coverage и Maintainability из qlty (old name: Codeclimate)
 
+---
+
 [![Maintainability](https://qlty.sh/badges/efd1ecb1-98ac-4153-8df7-8b21567664fb/maintainability.svg)](https://qlty.sh/gh/camelCalm/projects/code-coverage)
 
 [![Code Coverage](https://qlty.sh/badges/efd1ecb1-98ac-4153-8df7-8b21567664fb/test_coverage.svg)](https://qlty.sh/gh/camelCalm/projects/code-coverage)
@@ -81,4 +83,5 @@ https://github.com/camelCalm/<название проекта>/settings/secrets/
 
 ### Заключение.
 
-Основные действия выполнены. Теперь ваш проект связан с вашим личным кабинетом на qlty.sh, и после того как вы сделаете тест на ваш код, при пуше на гитхаб будут подтягиваться результаты Code Coverage и Maintainability в ваш README.md  Настройка окружения, и все остальные файлы, которые необходимы для нормальной работы, есть в этом проекте.
+Основные действия выполнены. Теперь ваш проект связан с вашим личным кабинетом на qlty.sh, и после того как вы сделаете тест на ваш код, при пуше на гитхаб будут подтягиваться результаты Code Coverage и Maintainability в ваш README.md  
+Настройка окружения, и все остальные файлы, которые необходимы для нормальной работы, есть в этом проекте.
