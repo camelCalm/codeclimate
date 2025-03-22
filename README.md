@@ -6,11 +6,11 @@
 
 ### 1. Создание проекта в GitHub.
 
-1.1 Создаем проект в GitHub, во вкладке actions создаем Simple workflow.
+1.1. Создаем проект в GitHub, во вкладке actions создаем Simple workflow.
 
 ![get start actions](https://github.com/camelCalm/code-coverage/blob/main/img/getStartAct.png)
 
-1.2 В конец созданного файла /.github/workflows/<название файла>.yml добавляем следующий код:
+1.2. В конец созданного файла /.github/workflows/<название файла>.yml добавляем следующий код:
 
 ```
       - name: Test & publish code coverage
@@ -20,11 +20,9 @@
             files: target/lcov.info
 ```
 
-1.3 Жмем Commit Changes:
+1.3. Жмем Commit Changes:
 
 ![add Test & publish code coverage](https://github.com/camelCalm/code-coverage/blob/main/img/addActions2.png)
-
----
 
 ### 2. Установка пакета в проект.
 
@@ -76,6 +74,20 @@ https://github.com/camelCalm/<название проекта>/settings/secrets/
 ![add secret key](https://github.com/camelCalm/code-coverage/blob/main/img/addSecret.png)
 
 Под именем: ```QLTY_COVERAGE_TOKEN```
+
+### Usage
+
+И так, когда вы напишите свой код, и сделаете тесты на него, вам необходимо проверить, работает ли test-coverage.  
+Проверка происходит с помощью данной команды, которую необходимо ввести в терминал:
+
+```
+npm test -- --coverage --coverageProvider=v8
+```
+
+После ввода данной команды, должна создаться папка "coverage" в вашем проекте. Исправьте код, если тесты не проходят.  
+"coverage/lcov.info" содержит код, который высылается в qlty, и, собственно говоря, благодаря этому делаются результаты test-coverage.
+
+Также обратите внимание на файл .npmrc . Это "настройки" конфигурации npm. Добавьте его в свой проект.
 
 ### Заключение.
 
