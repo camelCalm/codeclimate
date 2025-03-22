@@ -1,12 +1,8 @@
 ## Гайд по подключению Code Coverage и Maintainability из qlty (old name: Codeclimate)
 
----
-
 [![Maintainability](https://qlty.sh/badges/efd1ecb1-98ac-4153-8df7-8b21567664fb/maintainability.svg)](https://qlty.sh/gh/camelCalm/projects/code-coverage)
 
 [![Code Coverage](https://qlty.sh/badges/efd1ecb1-98ac-4153-8df7-8b21567664fb/test_coverage.svg)](https://qlty.sh/gh/camelCalm/projects/code-coverage)
-
----
 
 ### 1. Создание проекта в GitHub.
 
@@ -56,7 +52,7 @@ https://docs.qlty.sh/cloud/quickstart
 
 ![add project](https://github.com/camelCalm/code-coverage/blob/main/img/addProject.png)
 
-### 5. Получить Coverage Token.
+### 5. Получение Coverage Token.
 
 Нам необходимо получить токен, который будет хранится в настройках созданного репозитория на гитхаб.  
 Он нужен нам для того чтобы qlty мог соединиться с нашим проектом. 
@@ -69,7 +65,7 @@ https://docs.qlty.sh/cloud/quickstart
 
 ![set project](https://github.com/camelCalm/code-coverage/blob/main/img/setProj.png)
 
-### 6. Сохраняем Coverage Token.
+### 6. Сохранение Coverage Token.
 
 Токен необходимо сохранить в:
 
