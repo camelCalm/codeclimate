@@ -1,4 +1,4 @@
-## Гайд по подключению Code Coverage и Maintainability из qlty (old name: Codeclimate)
+## Гайд по подключению Code Coverage и Maintainability из qlty (прежнее название: Codeclimate)
 
 [![Maintainability](https://qlty.sh/badges/efd1ecb1-98ac-4153-8df7-8b21567664fb/maintainability.svg)](https://qlty.sh/gh/camelCalm/projects/code-coverage)
 
@@ -6,7 +6,7 @@
 
 ### 1. Создание проекта в GitHub.
 
-1.1 Создаем проект в GitHub, во вкладке actions создаем Simple workflow
+1.1 Создаем проект в GitHub, во вкладке actions создаем Simple workflow.
 
 ![get start actions](https://github.com/camelCalm/code-coverage/blob/main/img/getStartAct.png)
 
@@ -34,7 +34,7 @@
 
 ### 3. Регистрация на сайте qlty.
 
-Раньше был codeclimate, теперь разработали новый сайт:
+Раньше был codeclimate, теперь разраборазработан новый сайт от разработчиков codeclimate:
 
 ```
 https://qlty.sh
